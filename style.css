@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+
+body {
+    background-image: url(./assets/bg-main-mobile.png);
+    background-repeat: no-repeat;
+    background-position-y: -236px;
+    background-position-x: calc(100% + 218px);
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FCFAF9;
+
+}
+
+#logo {
+    margin: 40px 0 0 64px;
+
+}
+
+.container {
+    margin: 64px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.454545px;
+}
+
+.describe {
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 24px;
+    min-width: 327px;
+
+
+}
+
+#illustration {
+    height: 430px;
+    margin-top: -98px;
+}
+
+.mobile {
+    background: #191826;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    height: 391px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    background-image: url(./assets/bg-pattern-2.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: -1px;
+    background-size: 290px;
+}
+
+.orange-div {
+    background: #FA7453;
+    border-radius: 12px;
+    display: flex;
+    margin-top: -11px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FCFAF9;
+
+}
+
+.get {
+    font-size: 18px;
+    line-height: 28px;
+    color: #FCFAF9;
+}
+
+.price {
+
+    display: flex;
+    margin-top: 24px;
+    align-items: center;
+    gap: 16px;
+}
+
+.into {
+    margin: 48px 37px 48px 36px;
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 52px;
+    color: #FCFAF9;
+}
+
+.month {
+    font-size: 20px;
+    color: #FCFAF9;
+}
+
+button {
+    height: 61px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    font-weight: 700;
+    font-size: 18px;
+    border:none;
+}
+
+#apple {
+    background: #191826;
+    margin-top: 32px;
+}
+
+#android {
+    background: #FCFAF9;
+
+}
+
+#ios {
+    color: #FCFAF9;
+
+}
+
+footer {
+    margin: 58px 24px 80px 24px;
+}
+
+.address {
+    font-size: 16.5px;
+    line-height: 26px;
+    position: relative;
+    top: 32px;
+}
+
+#inline {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+
+}
+
+.icon {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 106px;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background-image: url(./assets/bg-main-tablet.png), url(./assets/bg-pattern-1.svg);
+        background-position-y: -49px;
+        background-position-x: calc(100% + 46px);
+        background-size: 1019px, 270px;
+    }
+
+    .container {
+        margin: -12px 173px 110px 40px;
+    }
+
+    #logo {
+
+        margin: 62px 582px 95px 44px;
+    }
+
+    h1 {
+        font-size: 64px;
+        line-height: 64px;
+        letter-spacing: -0.727273px;
+    }
+
+    .describe {
+        font-size: 19.6px;
+        line-height: 28px;
+    }
+
+    main {
+        width: 100%;
+        position: relative;
+    }
+
+    .orange-div {
+        width: 399px;
+        z-index: 1;
+        position: absolute;
+        top: 0px;
+        top: 290px;
+        left: 272px;
+    }
+
+    #illustration {
+        position: absolute;
+        top: 0;
+        margin: 0;
+        left: 97px;
+        width: 270px;
+        height: 557px;
+        top: -18px;
+
+    }
+
+    .mobile {
+        height: 600px;
+        border-radius: 12px;
+        background-position-y: -32px;
+        background-position-x: calc(229px);
+    }
+
+    .background {
+        margin-left: 33px;
+        margin-right: 39px;
+    }
+
+    footer {
+        margin: 204px 39px 85px 33px;
+        display: flex;
+    }
+
+    .equalizer {
+        margin: 0 230px 0 33px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    body {
+        background-image: url(./assets/bg-main-desktop.png), url(./assets/bg-pattern-1.svg);
+        background-position-x: calc(100% + 70px), calc(100% + 19px);
+        background-size: 1708px, 312px;
+        background-position-y: -177px,-48px;
+
+    }
+
+    .background {
+        margin-left: 165px;
+        margin-right: 165px;
+    }
+
+    h1 {
+        font-size: 88px;
+        line-height: 88px;
+        letter-spacing: -1px;
+    }
+
+    .describe {
+        font-size: 20px;
+        line-height: 34px;
+    }
+    .container{
+        margin: 127px 450px 110px 165px;
+        width: 850px;
+    }
+    #logo{
+        margin: 62px 0px 0px 167px;
+
+    }
+    #illustration{
+        left: 265px;
+        top:-22px;
+        
+    }
+    .orange-div{
+        left: 693px;
+        width: 446px;
+        top: 264px;
+        height: 625px;
+    }
+    footer{
+        flex-direction:row;
+        align-items: center;
+        margin: 160px 165px 91px 166px;
+
+    }
+    .equalizer{
+        display: flex;
+        gap: 137px;
+        align-items: center;
+        margin: 0 361px 0 33px;
+    }
+    #logo-two{
+        width: 146px;
+        height: 32px;
+    }
+    .into{
+        margin: 58px 59px 0 54px;
+        gap: 22px;
+    }
+    h2{
+        font-size: 40px;
+        line-height: 52px;
+    }
+    .get{
+        font-size: 20px;
+        line-height: 34px;
+    }
+    #apple{
+    margin-top:12px;
+    }
+    #apple:hover{
+        background: #66E2DC;
+
+    }
+    .mobile{
+        margin-top:160px;
+        background-size: 312px;
+        background-position-x: 36.6%;
+    }
+    button{
+        cursor:pointer;
+    }
+    #android:hover{
+        background: #FFB964;
+    }
+   
+}
